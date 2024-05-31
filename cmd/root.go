@@ -27,12 +27,11 @@ import (
 	"github.com/spf13/cobra"
 )
 
-
-
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "certutil",
-	Short: "A brief description of your application",
+	Use:     "certutil",
+	Version: "1.0.0",
+	Short:   "A brief description of your application",
 	Long: `A longer description that spans multiple lines and likely contains
 examples and usage of using your application. For example:
 
@@ -65,4 +64,4 @@ func init() {
 	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
 
-
+// cd630d89dbf7d8607d8603f36f7a107f
